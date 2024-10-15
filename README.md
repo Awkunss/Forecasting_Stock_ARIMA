@@ -1,5 +1,5 @@
 # Stock Price Forecasting
-This repository contains the code for stock price forecasting using the ARIMA model. The model was tested on three stocks: EXX5, IQQE, and IUS4. Data for these stocks was collected from [Yahoo Finance](https://finance.yahoo.com/) for the time window of May 2021 to May 2022.
+This repository contains the code for stock price forecasting using the ARIMA model. The model was tested on GOOG. Data for these stocks was collected from [Yahoo Finance](https://finance.yahoo.com/) for the time window of Oct 2023 to Oct 2024.
 
 ## Steps in the code
 
@@ -7,7 +7,7 @@ This repository contains the code for stock price forecasting using the ARIMA mo
 The code starts by importing the required libraries such as pandas, numpy, matplotlib, and statsmodels.
 
 ### Data Collection 
-The data for the stocks is collected from Yahoo Finance for the time window of May 2021 to May 2022. The data is loaded into a pandas dataframe.
+The data for the stocks is collected from Yahoo Finance for the time window of Oct 2023 to Oct 2024. The data is loaded into a pandas dataframe.
 
 ### Data Preprocessing 
 The data is preprocessed by checking for missing values, transforming the data into log-returns, and making the time series stationary.
